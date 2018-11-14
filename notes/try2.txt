@@ -1,0 +1,3 @@
+Removing the masking and using 1.0 as padding helped a bit, but still not max high enough to play notes.
+Considering to skip padding and rather concat all and train on this.
+Padding seems to be a big problem so will try to just concat all the songs and split into sequences in stead.
