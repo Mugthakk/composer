@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b3b55-d58d-4e83-9d60-6300d40a3152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_10_offset_1_specialist-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_10_offset_1_specialist.h5f" beforeDir="false" afterPath="$PROJECT_DIR$/models/nostate_10_offset_1_specialist.h5f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_10_offset_1_specialist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_20_offset_5_specialist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_20_offset_5_specialist.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
