@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b3b55-d58d-4e83-9d60-6300d40a3152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_50_offset_10_specialist-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_50_offset_10_specialist-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_50_offset_10_specialist.h5f" beforeDir="false" afterPath="$PROJECT_DIR$/models/nostate_50_offset_10_specialist.h5f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_50_offset_10_specialist.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NoStateful10offset1NoValidation-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NoStateful5offset1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Test-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_10_offset_1_specialist-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_20_offset_1_specialist-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_40_offset_5_specialist-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoStateful10offset1NoValidation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoStateful5offset1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deb_clai_format0.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_10_offset_1_specialist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_20_offset_1_specialist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_40_offset_5_specialist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist_regularizer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_50_offset_10_specialist_regularizer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testT.mid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try5.py" beforeDir="false" afterPath="$PROJECT_DIR$/try5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,21 +51,21 @@
         <counts>
           <entry key="Python Console" value="50" />
           <entry key="dummy" value="26" />
-          <entry key="py" value="13983" />
+          <entry key="py" value="14141" />
           <entry key="txt" value="1120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1146" />
-          <entry key="Python" value="14033" />
+          <entry key="Python" value="14191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="5" />
           <entry key="png" value="2" />
-          <entry key="py" value="49" />
+          <entry key="py" value="53" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
@@ -54,21 +74,60 @@
           <entry key="IPNB" value="5" />
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="49" />
+          <entry key="Python" value="53" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing_stateful.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+            <state relative-caret-position="196">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/try5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#21#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-629">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/core/numeric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="309" selection-start-line="309" selection-end-line="309" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -121,10 +180,10 @@
         <option value="$PROJECT_DIR$/try3.py" />
         <option value="$PROJECT_DIR$/try1.py" />
         <option value="$PROJECT_DIR$/try4.py" />
-        <option value="$PROJECT_DIR$/try5.py" />
         <option value="$PROJECT_DIR$/gputest.py" />
         <option value="$PROJECT_DIR$/preprocessing_stateful.py" />
         <option value="$PROJECT_DIR$/nostate_10_offset_1_specialist.ipynb" />
+        <option value="$PROJECT_DIR$/try5.py" />
       </list>
     </option>
   </component>
@@ -149,7 +208,13 @@
             <path>
               <item name="music" type="b2602c69:ProjectViewProjectNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="music" type="b2602c69:ProjectViewProjectNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.preprocessing_stateful">
+  <component name="RunManager" selected="Python.try5">
     <configuration name="gputest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="music" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,9 +358,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.try5" />
         <item itemvalue="Python.preprocessing_stateful" />
         <item itemvalue="Python.gputest" />
-        <item itemvalue="Python.try5" />
         <item itemvalue="Python.try4" />
         <item itemvalue="Python.try3" />
       </list>
@@ -326,7 +391,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,7 +401,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -352,38 +417,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/try1.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/try2.py</url>
-          <line>81</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/try4.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/try5.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/preprocessing_stateful.py</url>
           <line>63</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/try5.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="xs" />
-        <watch expression="last_part" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/keras/layers/recurrent.py">
@@ -560,27 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/try5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="43" selection-start-line="43" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/try1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-166">
@@ -615,20 +638,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76959">
+          <caret line="4527" selection-start-line="4527" selection-end-line="4527" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing_stateful.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="196">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/lib/function_base.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76959">
-          <caret line="4527" selection-start-line="4527" selection-end-line="4527" />
+        <state relative-caret-position="182">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#21#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>

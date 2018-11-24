@@ -1,116 +1,93 @@
+
 from keras.models import Model
+from keras import backend as K
 from keras.callbacks import TensorBoard, EarlyStopping
-from keras.layers import LSTM, Dropout, Dense, BatchNormalization, Activation, Input
-from keras.regularizers import l2
+from keras.layers import LSTM, Dropout, Dense, BatchNormalization, Activation, Input, TimeDistributed
+from keras.regularizers import l1, l2
 from keras.layers.advanced_activations import LeakyReLU, ELU, PReLU
 from keras.optimizers import RMSprop, Adam, Adadelta, Adagrad
+from keras.utils import to_categorical
+from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 from time import time
 from matplotlib import pyplot as plt
-from sklearn.preprocessing import binarize
-
+import random as rn
+import tensorflow as tf
 from assignment.helpers import datapreparation as prep
 
+# Seed session
+np.random.seed(123456)
+rn.seed(123456)
+session_conf = tf.ConfigProto(intra_op_parallelism_threads=0,
+                              inter_op_parallelism_threads=0)
+from keras import backend as K
 
+tf.set_random_seed(123456)
+sess = tf.Session(graph=tf.get_default_graph(), config=session_conf)
+K.set_session(sess)
+##
+
+fs1_dirpath = "./assignment/datasets/training/piano_roll_fs1"
 fs5_dirpath = "./assignment/datasets/training/piano_roll_fs5"
 
+# Load initial data
 datasets = prep.load_all_dataset(fs5_dirpath)
 dataset_names = prep.load_all_dataset_names(fs5_dirpath)
+unique_names = set()
+for name in dataset_names:  # Make sure the same names get the same encoding each run
+    unique_names.add(name)
+unique_names = list(unique_names)
+name_to_int = dict([(unique_names[i], i) for i in range(len(unique_names))])
+int_to_name = dict([(i, unique_names[i]) for i in range(len(unique_names))])
+dataset_names = to_categorical([name_to_int[name] for name in dataset_names])  # one-hot encode the composers
+datasets = [dataset[:, 1:] for dataset in datasets]  # Remove the headers
 
-datasets = [dataset[:, 1:] for dataset in datasets] # Remove the headers
-
+# Setting initial parameters
 dataset_id_names = dict(zip(np.arange(len(dataset_names)), dataset_names))
 longest_song = max(datasets[i].shape[1] for i in range(len(datasets)))
-sequence_length = 17
-length = longest_song//sequence_length + 1
+longest_song = 4173  # 4155 // 43 != good, 4173 // 43 = 97
+print(longest_song)
+sequence_length = 43
+length = longest_song // sequence_length + 1
 num_keys = len(datasets[0])
-parts_per_song = int(longest_song/sequence_length)
+parts_per_song = int(longest_song / sequence_length)
+composer_encoding_len = len(dataset_names[0])  # 4 composers
 
-
-def transpose_and_label(datasets, num_keys):
-    xs, ys = [], []
-    datasets_transposed = np.array([dataset.T for dataset in datasets])
-    for song in datasets_transposed:
-        for i in range(0, len(song)//sequence_length):
-            xs.append(song[i*sequence_length:(i+1)*sequence_length])
-            if i == len(song)//sequence_length - 1:
-                ys.append(np.append(song[i*sequence_length+1:(i+1)*sequence_length], np.array([np.ones(num_keys)]), 0))
-            else:
-                ys.append(song[i*sequence_length+1:(i+1)*sequence_length+1])
-        print("hello")
-    return xs, ys
 
 # Makes several datasets from this first one with differing intervals between to capture the "gaps" between two sequences
-def transpose_and_label_more(datasets, num_keys):
+# Add each subsequence of each song with differing offsets ([0:10], [1:11], [2:12], ...) to retain information.
+# Unable to implement stateful, so try to retain as much information between subsequences as possible.
+# Also a way of dataset augmentation (regularization) by increasing the size of the dataset
+
+def pepper_for_generator(dataset_names, datasets, num_keys, maxlen):
     zs = []
-    datasets_transposed = np.array([dataset.T for dataset in datasets])
-    for song in datasets_transposed:
-        for offset in range(0, sequence_length):
-            for i in range(0, len(song)//sequence_length):
-                x = song[offset+i*sequence_length:offset+(i+1)*sequence_length]
-                if i == len(song)//sequence_length - 1: # Add the EOF marker if last seq of song
-                    y = np.append(song[offset+i*sequence_length+1:offset+(i+1)*sequence_length], np.array([np.ones(num_keys)]), 0)
-                else:
-                    y = song[offset+i*sequence_length+1:offset+(i+1)*sequence_length+1]
-                zs.append((x,y))
-    zs = np.array(zs)
-    np.random.shuffle(zs)
-    return zs[:, 0], zs[:, 1]
-
-xs, ys = transpose_and_label_more(datasets, num_keys) # TODO shuffle
+    songs = np.array([dataset.T for dataset in datasets])
+    targets = np.array([np.append(song[:-1], np.array([np.ones(num_keys)]), 0) for song in songs])
+    songs = pad_sequences(songs, maxlen=maxlen, padding="post", value=np.array([np.zeros(128)]))
+    targets = pad_sequences(targets, maxlen=maxlen, padding="post", value=np.array([np.zeros(128)]))
+    song_composers = np.array([dataset_names[i] for i in range(len(datasets))])
+    return songs, targets, song_composers
 
 
-xs_concat, ys_concat = np.concatenate(xs, axis=0), np.concatenate(ys, axis=0)
+def data_generator(xs, ys, composers, b_size, sequence_length, number_steps):
+    prev_index = 0
 
-#print(xs_concat.shape) # 69122 = 2*17*19*107
+    while True:
 
-xs_split = np.array([xs_concat[i*sequence_length:(i+1)*sequence_length] for i in range(len(xs_concat)//sequence_length)])
-ys_split = np.array([ys_concat[i*sequence_length:(i+1)*sequence_length] for i in range(len(ys_concat)//sequence_length)])
+        xs_batch, composer_batch, ys_batch = [], [], []
 
-ys_labels = ys_split[:, 0, :]
+        for i in range(b_size):
+            xs_batch.append(xs[i][prev_index * sequence_length:(prev_index + 1) * sequence_length])
+            ys_batch.append(ys[i][prev_index * sequence_length:(prev_index + 1) * sequence_length])
+            composer_batch.append(composer_batch[i])
 
-inputs = Input(shape=(sequence_length, num_keys))
-# Units = units per timestep LSTM block, i.e. output dimensionality (128 here since input and output 128 keys)
-lstm = LSTM(num_keys,
-               activation='relu',
-               return_sequences=True,
-               dropout=0.0, #0.25,
-               recurrent_dropout=0.0, #0.25,
-               kernel_regularizer=None, #l2(0.0001),
-               recurrent_regularizer=None, #l2(0.0001),
-               bias_regularizer=None,
-               activity_regularizer=None, #l2(0.0001),
-               )(inputs)
-#lstm = LeakyReLU(alpha=.001)(lstm) # Workaround for getting leakyrelu as activation in lstm
-lstm = BatchNormalization()(lstm)
-#lstm = Dropout(0.25)(lstm)
-lstm = Dense(128)(lstm)
-outputs = Activation("sigmoid")(lstm) # Sigmoid keeps the probabilities independent of each other, while softmax does not!
+        prev_index += 1
 
-model = Model(inputs=inputs, outputs=outputs)
+        yield [np.array(xs_batch), np.array(composer_batch)], np.array(ys_batch)
 
-rmsprop = RMSprop(lr=0.001)
-adagrad =  Adagrad(lr=0.001)
-adam = Adam(lr=0.001)
-adadelta = Adadelta(lr=1.0)
 
-# Want to penalize each output node independantly. So we pick a binary loss
-# and model the output of the network as a independent bernoulli distributions per label.
+#datasets = pad_sequences(datasets, maxlen=longest_song, padding='post', value=np.zeros(num_keys))
+train_xs, train_ys, train_composers = pepper_for_generator(dataset_names, datasets, num_keys, longest_song)
 
-model.compile(loss='binary_crossentropy',
-              optimizer=adam, # consider changing this one for others
-              metrics=['categorical_accuracy'])
-print(model.summary())
-
-tensorboard = TensorBoard(log_dir="./logs/{}".format(time()))
-early_stop = EarlyStopping(monitor="val_loss", min_delta=0, patience=3, verbose=0, mode="auto")
-model.fit(xs_split, ys_split,
-          epochs=2000, # Train harder more for more things was too bad train man :(
-          validation_split=0.2,
-          batch_size=64,
-          shuffle=True,
-          callbacks=[tensorboard],
-          )
-
-model.save("./models/latest.h5f")
-# When LSTM is done can use trainable=False to freeze it while training the other one
+generator = data_generator(train_xs, train_ys, train_composers, len(train_xs), sequence_length,
+                           longest_song // sequence_length)
