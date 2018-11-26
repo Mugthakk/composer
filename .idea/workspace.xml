@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b3b55-d58d-4e83-9d60-6300d40a3152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NoStateful10offset1NoValidation-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NoStateful5offset1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Test-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_10_offset_1_specialist-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_20_offset_1_specialist-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_40_offset_5_specialist-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoStateful10offset1NoValidation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoStateful5offset1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deb_clai_format0.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_10_offset_1_specialist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_20_offset_1_specialist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_40_offset_5_specialist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist_regularizer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_50_offset_10_specialist_regularizer.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testT.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try5.py" beforeDir="false" afterPath="$PROJECT_DIR$/try5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song1.midi" beforeDir="false" afterPath="$PROJECT_DIR$/song1.midi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song2.midi" beforeDir="false" afterPath="$PROJECT_DIR$/song2.midi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song3.midi" beforeDir="false" afterPath="$PROJECT_DIR$/song3.midi" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -391,7 +371,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +381,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
