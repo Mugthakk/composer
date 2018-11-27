@@ -3,34 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="673b3b55-d58d-4e83-9d60-6300d40a3152" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_32_offset_2_generalist-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_32_offset_2_generalist-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/latest.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_10_offset_1_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_16_offset_2_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_20_offset_1_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_20_offset_5_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_32_offset_2_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_40_offset_5_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_50_offset_10_specialist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_50_offset_10_specialist_home.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nostate_fs5_50_generalist.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/notstateful_10offset1.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/notstateful_5offset1_validation.h5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/stateful_fs5_43_generalist.h5f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_32_offset_2_specialist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist_regularizer.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nostate_fs5_50_generalist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/try1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/try2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/try3 typical activations.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/try3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing_stateful.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/song1.midi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/song2.midi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/song3.midi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_8_offset_1_specialist.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="5" />
+          <entry key="ipynb" value="7" />
           <entry key="png" value="3" />
           <entry key="py" value="53" />
           <entry key="txt" value="8" />
@@ -77,7 +51,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="5" />
+          <entry key="IPNB" value="7" />
           <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="53" />
@@ -86,44 +60,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/core/numeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5253">
-              <caret line="309" selection-start-line="309" selection-end-line="309" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/lib/function_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76959">
-              <caret line="4527" selection-start-line="4527" selection-end-line="4527" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -556,9 +493,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes/try3 typical activations.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/core/numeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5253">
+        <state relative-caret-position="107">
           <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
@@ -572,18 +519,22 @@
     </entry>
     <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76959">
+        <state relative-caret-position="623">
           <caret line="4527" selection-start-line="4527" selection-end-line="4527" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/try3 typical activations.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="31" />
+    <entry file="file://$PROJECT_DIR$/fs1_8_offset1_generalist.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
