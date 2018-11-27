@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b3b55-d58d-4e83-9d60-6300d40a3152" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_32_offset_2_generalist-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_32_offset_2_generalist-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/latest.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_10_offset_1_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_16_offset_2_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_20_offset_1_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_20_offset_5_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_32_offset_2_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_40_offset_5_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_50_offset_10_specialist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_50_offset_10_specialist_home.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nostate_fs5_50_generalist.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/notstateful_10offset1.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/notstateful_5offset1_validation.h5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/stateful_fs5_43_generalist.h5f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_32_offset_2_specialist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_50_offset_10_specialist_regularizer.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nostate_fs5_50_generalist.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/try1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/try2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/try3 typical activations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/try3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing_stateful.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song1.midi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song2.midi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song3.midi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try5.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +70,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="5" />
-          <entry key="png" value="2" />
+          <entry key="png" value="3" />
           <entry key="py" value="53" />
           <entry key="txt" value="8" />
         </counts>
@@ -50,7 +78,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="5" />
-          <entry key="Image" value="2" />
+          <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="53" />
         </counts>
@@ -59,27 +87,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing_stateful.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/try5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -180,22 +187,6 @@
             <path>
               <item name="music" type="b2602c69:ProjectViewProjectNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,7 +372,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32765958" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -392,22 +383,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing_stateful.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/try5.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/keras/layers/recurrent.py">
@@ -486,9 +461,6 @@
           <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/try3 typical activations.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$USER_HOME$/venv/music/Lib/site-packages/keras/backend/tensorflow_backend.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -604,6 +576,9 @@
           <caret line="4527" selection-start-line="4527" selection-end-line="4527" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/try3 typical activations.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
       <provider selected="true" editor-type-id="text-editor">

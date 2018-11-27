@@ -1,5 +1,0 @@
-Added padding to match longest and used 15 as num untis with fs = 5, meaning 3 and 3 secs, but 1.0, so same as stop
-of song. Used masking to ignore whole inputs of only this value, hence ignored the stop.
-Also did not account for the first t of each song being the row headers, which should be excluded.
-Ended up with about 20% accuracy, but usually weak signals for each key as prediction.
-Some overfitting, dropout of .25/.5 fixed this but reduced training accuracy (as expected).

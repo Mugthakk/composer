@@ -1,4 +1,0 @@
-THe approach of not padding seems more promising, only problem now is the scaling of activations, should map back to 0-1,
-binarizing on some threshold probably.
-
-Probably bad to have 17x17x128 -> 17x128 to output the single 128 as workaround
