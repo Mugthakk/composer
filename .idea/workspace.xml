@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b3b55-d58d-4e83-9d60-6300d40a3152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_32_offset_2_generalist-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/nostate_32_offset_2_generalist-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/nostate_32_offset_2_generalist.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
     <session id="1315983509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="10" />
           <entry key="project.open.time.5" value="4" />
@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="108" column="119" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="119" />
+            <state relative-caret-position="451">
+              <caret line="130" column="43" selection-start-line="130" selection-start-column="43" selection-end-line="130" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -533,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment/helpers/datapreparation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="108" column="119" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="119" />
+        <state relative-caret-position="451">
+          <caret line="130" column="43" selection-start-line="130" selection-start-column="43" selection-end-line="130" selection-end-column="43" />
         </state>
       </provider>
     </entry>
